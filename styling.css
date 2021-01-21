@@ -1,0 +1,389 @@
+/* Login Page */
+#login_body {
+    background-image: url("pictures/farming5.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: 100%;
+}
+#login {
+    width: 400px;
+    margin: 0;
+    background: white;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+#login form fieldset legend {
+    font-weight: bold;
+}
+#login #log {
+    height: 40px;
+    width: 360px;
+    background: rgb(58, 160, 243);
+    color: white;
+    font-size: 18px;
+}
+#login input {
+    height: 25px;
+    width: 355px;
+    margin-top: 5px;
+}
+#login .login fieldset label {
+    display: table-row;
+}
+body {
+    font-family: 'century gothic';
+    font-size: 18px;
+    background-color: whitesmoke;
+}
+
+
+/* nav.php */ 
+#one {
+    height: 70px;
+    width: 100%;
+    background: rgb(58, 160, 243);
+    position: fixed;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+#two {
+    height: 100%;
+    width: 70px;
+    background: whitesmoke;
+    position: fixed;
+    margin-top: 60px;
+    margin-left: -8px;
+}
+#logo {
+    color: white;
+    font-size: 32px;
+    line-height: 70px;
+    padding: 0 75px;
+    font-weight: bold;
+}
+#user {
+    font-size: 25px;
+    line-height: 70px;
+    color: white;
+    float: right;
+    margin-right: 15px;
+}
+#error {
+    color: red;
+}
+#two ul {
+    list-style: none;
+}
+#two ul li {
+    display: block;
+    padding: 25px 0px;
+    margin-left: -20px;
+}
+#two ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+#two ul li a.active, #two ul li a:hover {
+    background: lightgray;
+    transition: 0.5s;
+    font-size: 27px;
+}
+span {
+    font-size: 16px;
+}
+/* hide names that appear on hovering */
+.home, .employees, .schedule, .requests, .settings, .logout{
+    display: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+/* Display names on hovering */
+.fa-home:hover  ~ .home,
+.fa-folder:hover ~ .employees,
+.fa-tasks:hover ~ .schedule,
+.fa-calendar:hover ~ .requests,
+.fa-cog:hover ~ .settings,
+.fa-sign-out:hover ~ .logout{
+    display: block;
+    margin-left: 30px;
+    margin-top: -25px;
+}
+.dropdown {
+    display: none;
+}
+.fa-cog:hover .dropdown {
+    display: block;
+}
+/* footer.php */
+.empty{
+    clear: both;
+    padding-top: 70px;
+}
+footer {
+    clear: both;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    bottom: 0;
+    font-size: 15px;
+    text-align: center;
+    position: fixed;
+    background-color: white;
+    margin-top: 150px;
+}
+
+/* weather forecast */
+.weather_task {
+    margin-left: 76px;
+    padding-top: 52px;
+}
+nav ul span {
+    color: blue;
+}
+.weather {
+    float: left;
+    width: 42%;
+    height: 350px;
+    background-color: white;
+}
+.tasks {
+    height: 350px;
+    width: 45%;
+    float: left;
+    background-color: white;
+    overflow: scroll;
+    margin-left: 95px;
+}
+
+/* Task table */
+#Grid {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+table th {
+    width: 50px;
+}
+#Grid tr {
+    border: 1px solid black;
+}
+#Grid td, #Grid tr, #Grid th{
+    font-size: 18px;
+    padding: 13px 17px 12px 5px;
+    text-align: left;
+}
+a {
+    text-decoration: none;
+    color: navy;
+    font-weight: 500;
+}
+/* Format headings */
+h4 {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.weather_task h4 {
+    height: 40px;
+    line-height: 40px;
+}
+.bottom h4 {
+    height: 55px;
+    line-height: 65px;
+    margin-top: -10px;
+}
+/* Leave requests table */
+.bottom {
+    clear: both; 
+    padding-top: 25px;
+    margin-bottom: 50px; 
+}
+.leaves, .on_duty, .pie {
+    width: 30%;
+    height: 400px;
+    overflow: scroll;
+    background-color: white;
+    float: left;
+}
+.on_duty {
+    margin-left: 35px;
+}
+/* Piechart */
+.pie {
+    margin-left: 35px;
+}
+
+/* WORK SCHEDULE */
+
+.heading {
+    margin-left: 76px;
+    padding-top: 52px;
+}
+.heading h4 {
+    background-color: rgb(58, 160, 243);
+    height: 60px;
+    line-height: 60px;
+    text-align: left;
+    padding-left: 30px;
+}
+.workspace {
+    margin-left: 76px;
+    background-color: white;
+}
+.button {
+    padding-top: 20px;
+}
+.button button {
+    width: 160px;
+    height: 40px;
+    font-family: 'century gothic';
+    background-color: mediumpurple;
+    font-weight: bold;
+}
+.button a button{
+    color: white;
+}
+#setting_button {
+    float: left;
+    padding-right: 45px;
+}
+#textboxes {
+    padding-top: 20px;
+    margin-left: 50px;
+}
+.text {
+    height: 40px;
+    width: 390px;
+    margin-left: 20px;
+    margin-right: 50px;
+    font-family: 'century gothic';
+    font-size: 18px;
+}
+#text {
+    height: 150px;
+    width: 590px;
+    font-size: 18px;
+    margin-top: 40px;
+    font-family: 'century gothic';
+}
+#name{
+    float: left;
+}
+#description {
+    clear: both;
+}
+#employees {
+    margin-top: 60px;
+    height: 450px;
+    overflow: scroll;
+}
+#schedule {
+    border-collapse: collapse;
+    width: 100%;
+}
+#schedule tr {
+    border: 1px solid black;
+}
+#schedule td, #schedule tr, #schedule th{
+    font-size: 18px;
+    padding: 23px 87px 22px 5px;
+    text-align: left;
+}
+hr {
+    margin-top: 40px;
+}
+#more {
+    margin-top: 40px;
+    height: 450px;
+    overflow: scroll;
+}
+.response {
+    margin-left: 20px;
+    padding-top: 250px;
+    font-size: 70px;
+    text-align: center;
+}
+.link button{
+    font-size: 70px;
+    font-family: 'century gothic';
+    text-align: center;
+    background-color: mediumpurple;
+    color: white;
+}
+#emplys {
+    height: 500px;
+    overflow: auto;
+}
+
+
+/* New Employee */
+.input {
+    margin-left: 200px;
+}
+.input ul li {
+    display: table-row;
+    text-align: right;
+    list-style: none;
+    margin-left: 50px;
+}
+.textboxes {
+    height: 30px;
+    width: 443px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    float: right;
+}
+.selects{
+    height: 40px;
+    width: 450px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    float: right;
+}
+.textboxes, .selects, #textarea {
+    font-family: 'century gothic';
+    font-size: 16px;
+}
+form h3 {
+    clear: both;
+}
+form #final {
+    font-size: 20px;
+    height: 45px;
+    width: 100px;
+    background-color: lightseagreen;
+    color: white;
+}
+#address {
+    margin-left: -200px;
+}
+
+/* Work_schedule */
+#work_table {
+    height: 400px;
+    overflow: auto;
+}
+
+/*Leaves */
+.leave_tables {
+    border-collapse: collapse;
+    width: 100%;
+}
+.leave_tables tr {
+    border: 1px solid black;
+}
+.leave_tables td, .leave_tables tr, .leave_tables th{
+    font-size: 18px;
+    padding: 20px 7px 22px 1px;
+    text-align: left;
+}
+.tables{
+    height: 350px;
+    overflow: scroll;
+}
