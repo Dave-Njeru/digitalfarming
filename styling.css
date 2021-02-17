@@ -387,3 +387,13 @@ form #final {
     height: 350px;
     overflow: scroll;
 }
+
+@media (max-width: 950px) {
+    #logo {
+        font-size: 16px;
+        padding: 0 40px;
+    }
+    #user {
+        font-size: 16px;
+    }
+}
